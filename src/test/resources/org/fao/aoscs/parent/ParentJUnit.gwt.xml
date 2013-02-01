@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='org.fao.aoscs.parent.Parent' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/Parent/greet" class="org.fao.aoscs.parent.server.GreetingServiceImpl" />
+
+</module>
