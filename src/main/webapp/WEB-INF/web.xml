@@ -8,7 +8,7 @@
   <!-- Servlets -->
   <servlet>
     <servlet-name>greetServlet</servlet-name>
-    <servlet-class>org.fao.aoscs.parent.server.GreetingServiceImpl</servlet-class>
+    <servlet-class>org.fao.aoscs.child.server.GreetingServiceImpl</servlet-class>
   </servlet>
 
   <servlet-mapping>
